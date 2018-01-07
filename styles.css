@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body {
+	box-sizing: border-box;
+
+}
+
+form {
+	padding: 1em;	
+	font-family: 'PT Sans', sans-serif;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid black;
+	display: block;
+	line-height: 2em;
+	padding: .5em;
+	font-size: 12px;
+	margin-bottom: 1em;
+	width: 30%;
+	outline: none;
+}
+
+button {
+	height: 3em;
+	width: 10%;
+	background-color: #c0cde0;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
+}
+
+img {
+	height: 4em;
+	padding: 1em;
+}
+
+ul.contactsList {
+	padding: 0;
+}
+
+.contactLabel, .contactEmail {
+	padding: 1em;
+}
+
+.contactItem {
+	display: flex;
+	background-color: #c0cde0;
+	margin: .5em;
+	padding: .5em;
+	min-height: 50px;
+	line-height: 2em;
+	width: 50%;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.contactItem:hover, button:hover {
+	background-color: #dce0e5;
+}
